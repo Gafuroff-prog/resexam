@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@media (max-width: 768px){
+    .logo{
+        margin-left: -100px;
+        
+    }
+    .contactbtn{
+        position: relative;
+        left: 20px;
+    }
+    ul{
+        position: relative;
+        right: 150px;
+    }
+    .mainabout{
+        margin-left: 10px;
+        margin-top: -20px;
+    }
+    .txtabout{
+        margin-left: -670px;
+        width: 700px;
+        height: 100px;
+        margin-top: 40px;
+        
+    }
+    .sect2{
+        height: 500px;
+       
+    }
+    .nikitamarks{
+        max-width: 220px;
+        max-height: 200px;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Livvic", sans-serif;
+}
+header{
+    background-color: #014E56;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    color: white;
+}
+.logo{
+    position: relative;
+    left: 100px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+ul li{
+    position: relative;
+    left: 350px;
+    top: 10px;
+}
+.contactbtn{
+    border: 3px solid white;
+    border-radius: 30px;
+    color: white;
+    position: relative;
+    right: 150px;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    align-content: center;
+}
+.contactbtn:hover{
+    background-color: black;
+    transition: all 0.6s;
+    border: 3px solid black;
+}
+.sect1{
+    background-color: #014E56;
+    height: 250px;
+    color: white;
+    display: flex;
+}
+.mainabout{
+    font-size: 48px;
+    position: relative;
+    left: 260px;
+    top: 30px;
+}
+.txtabout{
+    width: 600px;
+    position: relative;
+    left: 600px;
+    top: 40px;
+}
+.sect2{
+    background-color: #004047;
+    height: 500px;
+}
+.directors{
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    padding: 40px;
+}
+.nikitamarks{
+    border: 0px solid;
+    background-color: #012F34;
+    width: 250px;
+    height: 230px;
+    text-align: center;
+    margin-left: 260px;
+    position: relative;
+    top: 5px;
+    align-items: center;
+}
+.nikitaname{
+    color: #79C8C7;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: -6px;
+}
+.found1{
+    color: white;
+    font-weight: 300;
+    margin-left: -6px;
+    font-style: italic;
+}
+.nikitamarksimg{
+    position: relative;
+    top: 20px;
+}
+.plusbtn1{
+    border: 0px solid;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    align-content: center;
+    color: #012F34;
+    background-color: #F67E7E;
+    font-weight: 700;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.cristanduncan{
+    border: 0px solid;
+    background-color: #012F34;
+    width: 250px;
+    height: 230px;
+    text-align: center;
+    margin-left: 630px;
+    margin-top: -226px;
+    align-items: center;
+}
+.cristanname{
+    color: #79C8C7;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: -6px;
+}
+.found2{
+    color: white;
+    font-weight: 300;
+    margin-left: -6px;
+    font-style: italic;
+}
+.cristanduncanimg{
+    position: relative;
+    top: 20px;
+}
+.plusbtn2{
+    border: 0px solid;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    align-content: center;
+    color: #012F34;
+    background-color: #F67E7E;
+    font-weight: 700;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.cruzhamer{
+    border: 0px solid;
+    background-color: #012F34;
+    width: 250px;
+    height: 230px;
+    text-align: center;
+    margin-left: 990px;
+    position: relative;
+    bottom: 230px;
+    align-items: center;
+}
+.Cruzname{
+    color: #79C8C7;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: -6px;
+}
+.found3{
+    color: white;
+    font-weight: 300;
+    margin-left: -6px;
+    font-style: italic;
+}
+.cruzhamerimg{
+    position: relative;
+    top: 20px;
+}
+.plusbtn3{
+    border: 0px solid;
+    border-radius: 360px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    align-content: center;
+    color: #012F34;
+    background-color: #F67E7E;
+    font-weight: 700;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+.sect3{
+    background-color: #012F34;
+    height: 250px;
+}
+.clients{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+}
+.clientsimg{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-left: 100px;
+}
+.sect4{
+    background-color: #F67E7E;
+    height: 200px;
+}
+.started{
+    color: #012F34;
+    font-size: 48px;
+    text-align: center;
+    margin-left: -650px;
+    padding: 70px;
+}
+.contactbtn2{
+    border: 3px solid #012F34;
+    border-radius: 30px;
+    background-color: #F67E7E;
+    color: #012F34;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    left: 1000px;
+    bottom: 110px;
+    font-weight: 500;
+}
+.contactbtn2:hover{
+    background-color: #012F34;
+    color: white;
+    transition: all 0.7s;
+}
+.footer{
+    background-color: #002529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 60px;
+}
+.logofooter{
+    position: relative;
+    left: 40px;
+}
+.social{
+    position: relative;
+    right: 50px;
+    gap: 20px;
+    display: flex;
+}
